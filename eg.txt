@@ -1,0 +1,31 @@
+Importing the libraries -> 
+
+numpy: for using arrays
+Matplotlib : for plotting charts and graphs
+pandas : not only import the dataset but create the matrix of features and dependent variable vector
+
+Importing the dataset ->
+
+load the dataset file -> train a machine learning model -> add feature and dependent variable
+
+feature are columns that are going to be predict and the dependent variable. 
+the dependent variable is last column
+
+iloc function: locate index of columns
+
+When to apply feature scaling, before or after splitting the dataset into the training set and test set ?
+Answer: after the splitting the dataset into the training set and test set
+
+splitting the dataset into the training set and test set: On training set: train the machine learning model on existing observations
+and On test set: Evaluate the performance of your model on new observations
+
+Not apply Feature Scaling before dataset splitting because the split is to prevent information leakage on the test set, which not supposed to have until the training is done
+
+Feature Scaling: 
+
+There are two type: Normalization and standardisation
+
+Normalization: It is recommended when you have normal distribution in most of your features.
+Standardisation: It works well all the time, it will do the job all the time
+
+ 
